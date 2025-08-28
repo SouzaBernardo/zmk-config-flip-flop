@@ -1,0 +1,10 @@
+file_format: "1"
+id: flip_flop
+name: "Flip Flop"
+type: shield
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - flip_flop_left
+  - flip_flop_right
