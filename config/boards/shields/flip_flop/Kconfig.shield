@@ -1,0 +1,5 @@
+config SHIELD_FLIP_FLOP_LEFT
+    def_bool $(shields_list_contains,flip_flop_left)
+
+config SHIELD_FLIP_FLOP_RIGHT
+    def_bool $(shields_list_contains,flip_flop_right)

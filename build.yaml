@@ -20,6 +20,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: corne_left
+    shield: flip_flop_left
   - board: nice_nano_v2
-    shield: corne_right
+    shield: fip_flop_right
+  - board: nice_nano_v2
+    shield: settings_reset
