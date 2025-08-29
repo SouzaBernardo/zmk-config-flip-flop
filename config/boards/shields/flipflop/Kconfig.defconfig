@@ -1,14 +1,14 @@
-if SHIELD_CALDERA_LEFT
+if SHIELD_FLIPFLOP_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Caldera"
+    default "Flipflop"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_CALDERA_LEFT || SHIELD_CALDERA_RIGHT
+if SHIELD_FLIPFLOP_LEFT || SHIELD_FLIPFLOP_RIGHT
 
 config ZMK_SPLIT
     default y

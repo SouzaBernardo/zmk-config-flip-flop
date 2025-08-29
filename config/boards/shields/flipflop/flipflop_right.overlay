@@ -1,4 +1,4 @@
-#include "caldera.dtsi"
+#include "flipflop.dtsi"
 
 &default_transform { 
     col-offset = <6>;
