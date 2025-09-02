@@ -24,11 +24,11 @@
 
         layer_1 {
             bindings = <
-&kp ESC         &trans           &trans     &trans    &trans                &trans                   &kp C_PREV          &kp C_PLAY          &kp LA(C_NEXT)    &kp K_MUTE           &kp C_VOLUME_DOWN  &kp C_VOL_UP
-&trans          &kp EQUAL        &kp MINUS  &kp PLUS  &kp UNDERSCORE        &trans                   &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)  &kp LA(UP_ARROW)  &kp LA(RIGHT_ARROW)  &kp LBKT           &kp RBKT
-&kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LBKT   &kp RBKT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LEFT_ARROW      &kp DOWN_ARROW      &kp UP_ARROW      &kp RIGHT_ARROW      &kp BSPC           &kp DELETE
-&trans          &trans           &trans     &trans    &trans                &trans                   &kp RG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &trans             &trans
-                                 &trans     &trans    &trans                &trans                   &trans              &trans              &trans            &trans
+&kp ESC         &trans           &trans     &trans     &trans                &trans                   &kp C_PREV          &kp C_PLAY          &kp LA(C_NEXT)    &kp K_MUTE           &kp C_VOLUME_DOWN  &kp C_VOL_UP
+&trans          &kp EQUAL        &kp MINUS  &kp PLUS   &kp UNDERSCORE        &trans                   &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)  &kp LA(UP_ARROW)  &kp LA(RIGHT_ARROW)  &kp LBKT           &kp RBKT
+&kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LBKT   &kp RBKT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LEFT_ARROW      &kp DOWN_ARROW      &kp UP_ARROW      &kp RIGHT_ARROW      &kp BSPC           &kp DELETE
+&trans          &kp LG(Z)        &kp LG(X)  &kp LG(C)  &kp LG(V)             &kp LG(B)                &kp RG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &trans             &trans
+                                 &trans     &trans     &trans                &trans                   &trans              &trans              &trans            &trans
             >;
         };
     };
