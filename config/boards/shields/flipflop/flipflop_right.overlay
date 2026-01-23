@@ -1,27 +1,9 @@
 #include "flipflop.dtsi"
 
-&default_transform { 
-    col-offset = <6>;
-};
+/ {
+    chosen {
+        zmk,split-role = "peripheral";
+    };
 
-&bottom_transform {
-    col-offset = <4>;
-};
-
-&kscan0 {
-    col-gpios
-        = <&pro_micro 9 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 8 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 7 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 10 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 16 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 14 GPIO_ACTIVE_HIGH>
-        ;
-};
-
-&kscan1 {
-    col-gpios
-        = <&pro_micro 16 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 14 GPIO_ACTIVE_HIGH>
-        ;
+    zmk,physical-layout = "right";
 };
