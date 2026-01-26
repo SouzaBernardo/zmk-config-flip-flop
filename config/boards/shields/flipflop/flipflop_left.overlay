@@ -3,6 +3,7 @@
 / {
     chosen {
         zmk,split-role = "central";
+        zmk,kscan = &default_transform;
     };
 
     zmk,physical-layout = "left";

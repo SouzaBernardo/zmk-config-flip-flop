@@ -3,11 +3,12 @@
         zmk,kscan = &default_transform;
     };
 
-
-
-     default_transform: kscan_transform {
+    default_transform: kscan_transform {
         compatible = "zmk,kscan-transform";
         kscan = <&default_matrix>;
+
+        rows = <5>; // Número de linhas na matriz
+        columns = <6>; // Número de colunas na matriz
 
         // mapeamento físico → lógico
         map = <

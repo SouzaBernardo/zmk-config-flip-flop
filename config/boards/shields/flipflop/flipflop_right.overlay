@@ -3,6 +3,7 @@
 / {
     chosen {
         zmk,split-role = "peripheral";
+        zmk,kscan = &default_transform;
     };
 
     zmk,physical-layout = "right";
