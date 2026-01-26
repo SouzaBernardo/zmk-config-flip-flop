@@ -1,7 +1,7 @@
 #include "flipflop.dtsi"
 
 &default_transform {
-    col-offset = <4>;
+    col-offset = <6>;
 };
 
 &kscan0 {
