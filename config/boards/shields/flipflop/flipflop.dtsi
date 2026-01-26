@@ -11,7 +11,7 @@
 
         // total lógico
         rows = <5>;
-        columns = <12>;
+        columns = <6>;
 
         // mapeamento físico → lógico
         map = <
