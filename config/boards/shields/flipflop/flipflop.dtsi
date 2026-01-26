@@ -9,10 +9,6 @@
         compatible = "zmk,kscan-transform";
         kscan = <&default_matrix>;
 
-        // total lógico
-        rows = <5>;
-        columns = <6>;
-
         // mapeamento físico → lógico
         map = <
                /* left half (0–29) */
@@ -35,6 +31,11 @@
         wakeup-source;
 
         diode-direction = "col2row";
+
+        // total lógico
+        rows = <5>;
+        columns = <6>;
+
 
         row-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row A from the schematic file
                     <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row B from the schematic file
